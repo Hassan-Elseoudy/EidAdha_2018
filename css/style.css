@@ -17,7 +17,7 @@ strong {
 }
 
 #div1 {
-  margin-top: 30px;
+  margin-top: 5vw;
 }
 
 .container-outer {
@@ -45,8 +45,8 @@ p {
   margin: 0;
   text-align: center;
   font-weight: bold;
-  font-size: 72px;
-  letter-spacing: 10px;
+  font-size:7.3vw;
+  letter-spacing: 1vw;
   position: absolute;
   width: 100%;
 }
@@ -66,28 +66,28 @@ p {
 }
 
 .top {
-  height: 32px;
+  height: 3.65vw;
   animation-name: goUp;
 
 }
 
 .bottom {
-  height: 41px;
+  height: 3.65vw;
   animation-name: goDown;
 }
 
 .sub-text p {
   text-align: center;
-  font-size: 24px;
+  font-size:1.8vw;
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 1vw;
   margin: 0;
   position: absolute;
   width: 100%;
   top: 50%;
-  transform: translateY(-70%);
+  transform: translateY(-50%);
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 2s;
@@ -100,7 +100,7 @@ p {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-22px);
+    transform: translateY(-2.2vw);
   }
 }
 
@@ -109,7 +109,7 @@ p {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(22px);
+    transform: translateY(2.2vw);
   }
 }
 
@@ -126,17 +126,9 @@ p {
   margin: auto;
 }
 
-.textCCE {
-  color: #f2f2f2;
-  font-size: 25px;
-  padding: 8px 12px;
-  width: 100%;
-  text-align: center;
-}
-
 .text{
+  font-size: 2.5vw;
   color: #f2f2f2;
-  font-size: 25px;
   padding: 8px 12px;
   width: 100%;
   text-align: center;
